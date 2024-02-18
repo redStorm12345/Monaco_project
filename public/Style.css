@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #64a9d1;
+}
+
+p {
+    line-height: 1.6;
+    color: #333d;
+}
+
+.entete {
+    background-color: rgba(238, 246, 13, 0.5);
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-gap: 0;
+}
+
+.contenu {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+
+}
+
+.menu {
+    background-color: rgb(136, 237, 12);
+    padding-left: 10px;
+}
+
+.corps {
+    padding-left: 20px;
+}
+
+.pied {
+    background-color: rgba(33, 238, 193, 0.944);
+    height: 150px;
+}
+
+.identite {
+    padding-left: 10px;
+}
